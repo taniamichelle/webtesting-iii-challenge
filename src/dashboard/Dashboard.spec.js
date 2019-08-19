@@ -10,6 +10,9 @@ describe('<Dashboard />', () => {
     // snapshots are a JSON representation of the DOM tree
     expect(tree.toJSON()).toMatchSnapshot();
   });
-  // What we want to test: 
-    // when user clicks button, what happens in the app?
 });
+
+/*
+// Dashboard should show the controls and display
+
+*/
