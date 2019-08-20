@@ -4,6 +4,7 @@ import renderer from 'react-test-renderer'; // 1: install this npm module as a d
 import Dashboard from './Dashboard';
 import {render, fireEvent} from '@testing-library/react'; 
 
+// Dashboard should show the controls and display
 describe('<Dashboard />', () => {
   it('matches snapshot', () => {
     const tree = renderer.create(<Dashboard />); // generates a DOM tree
@@ -12,7 +13,4 @@ describe('<Dashboard />', () => {
   });
 });
 
-/*
-// Dashboard should show the controls and display
 
-*/
